@@ -1,0 +1,139 @@
+    1  git -version
+    2  git --version
+    3  cd
+    4  mkdir -p ~/goit_hw && cd ~/goit_hw
+    5  cd ~/goit_hw\n
+    6  history -c && rm -f ~/.bash_history\n
+    7  git config --global user.name "Ваше Імʼя"\ngit config --global user.email "your_email@example.com"\n\n# перевірка\ngit config --global --list\n
+    8  clear
+    9  ls
+   10  clear
+   11  ls
+   12  ls
+   13  cd
+   14  cd Desktop\t
+   15  ls
+   16  cd..
+   17  cd ..
+   18  cd Desktop
+   19  cd 
+   20  ls
+   21  cd Desktop
+   22  ls
+   23  cd Desktop
+   24  PWD
+   25  pwd
+   26  cd ..
+   27  cd Desktop
+   28  mkdir Lesson
+   29  ls
+   30  mkdir Lesson2
+   31  ls
+   32  touch empty.txt
+   33  ls
+   34  clear
+   35  vim empty.txt
+   36  cd desktop
+   37  vim empty.txt
+   38  cd Desktop
+   39  vim empty.txt
+   40  cd Desktop
+   41  vim Empty.txt
+   42  nano empty.txt
+   43  nano empty.txt
+   44  cat empty.txt
+   45  nano empty.txt
+   46  cat empty.txt
+   47  cp empty.txt
+   48  pwd
+   49  cp /Users/viktoria/Desktop/empty.txt/Users/viktoria/Downloads
+   50  cp /Users/viktoria/Desktop/empty.txt/Users/viktoria/Dokuments
+   51  cp empty.txt~
+   52  cat empty.txt
+   53  pwd
+   54  cp /Users/viktoria/Deskto&
+   55  pwd
+   56  /Users/viktoria/Desktop/epty.txt /Users/Downloads
+   57  ping google.com
+   58  date
+   59  df -h
+   60  ifconfig
+   61  whoami
+   62  cd Desktop
+   63  ls
+   64  touch test.txt
+   65  chmod 777.test.txt
+   66  chmod 777 test.txt
+   67  clear
+   68  cd Git
+   69  git config --global user.name "Viktoria" 
+   70  git config --global user.email schneider89viktoria@gmail.com 
+   71  git clone https://github.com/Vika4375/lesson3.1.git
+   72  cd Lesson3.1/
+   73  git status
+   74  touch New.txt
+   75  git status
+   76  git add New.txt
+   77  git status
+   78  git commit -m "New file created"
+   79  git status
+   80  git log
+   81  git branch
+   82  git chekaut -b new_branch
+   83  chekout -b new_branch
+   84  checkout -b new_branch
+   85  git checkout -b new_branch
+   86  git branch
+   87  git checkout main
+   88  git branch
+   89  git checkout new branch
+   90  git checkout new_branch
+   91  nano new.txt
+   92  git status
+   93  git commit -m "New modified"
+   94  git status
+   95  git checkout main
+   96  git merge new_branch
+   97  git branch
+   98  git status
+   99  git commit
+  100  git checkout new_branch
+  101  git merge main
+  102  git status
+  103  git commit
+  104  git checkout main
+  105  git status
+  106  git commit
+  107  git add new.txt
+  108  git status
+  109  git commit
+  110  git commit -m "New modified"
+  111  git push
+  112  git config --global user.name "viktoria"
+  113  git config --global user.email 
+  114  git config --global --list
+  115  git clone https://github.com/Vika4375/HW_10.git
+  116  cd HW_10
+  117  touch text_ignore.txt\n
+  118  echo "text_ignore.txt" >> .gitignore
+  119  git status
+  120  git add .
+  121  git commit -m "Add text_ignore.txt to .gitignore"
+  122  touch main_test.txt
+  123  git add
+  124  git add .
+  125  git commit -m "Add empty main_test.txt"
+  126  git checkout -b develop
+  127  touch develop_test.txt
+  128  git add 
+  129  git commit -m "Add empty develop_test.txt"\n
+  130  git add develop_test.txt
+  131  git add develop_test.txt
+  132  git commit -m "Add empty develop_test.txt"
+  133  echo "just a small change" >> develop_test.txt
+  134  git status
+  135  git add develop_test.txt
+  136  git commit -m "Update develop_test.txt with a small change"
+  137  git checkout main
+  138  git merge develop
+  139  git log --oneline --graph --all
